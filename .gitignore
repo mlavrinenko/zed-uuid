@@ -1,0 +1,5 @@
+/.cargo
+/.devbox
+/.rustup
+/target
+extension.wasm

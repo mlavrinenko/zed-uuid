@@ -1,0 +1,12 @@
+[package]
+name = "zed-uuid"
+version = "1.0.0"
+license = "MIT"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.1.0"
+uuid = { version = "0.8", features = ["v4"] }
