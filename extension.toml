@@ -1,0 +1,11 @@
+id = "uuid"
+name = "Random UUID"
+version = "1.0.0"
+schema_version = 1
+authors = ["maxim@lavrinenko.xyz"]
+description = "A slash command `/uuid` to insert a random UUIDv4."
+repository = "https://github.com/m.lavrinenko/zed-uuid"
+
+[slash_commands.uuid]
+description = "Insert a random UUIDv4."
+requires_argument = false

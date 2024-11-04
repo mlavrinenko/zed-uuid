@@ -1,0 +1,14 @@
+cargo-features = ["edition2024"]
+
+[package]
+name = "zed-uuid"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.1.0"
+uuid = { version = "0.8", features = ["v4"] }
